@@ -1,4 +1,4 @@
-public class four_process_control{
+public class five_process_control{
     public static void main(String[] args){
         //判断语句
         System.out.println("**if判断**");
@@ -28,6 +28,10 @@ public class four_process_control{
         System.out.println("**for循环**");
         for(int i=0;i<4;i++){
             System.out.println("淡水海边");
+        }
+        String [] fruits= {"apple","mango","orange"};
+        for(int i=fruits.length;i>0;i--){
+            System.out.println(fruits[i-1]);
         }
         //while结构
         System.out.println("**while循环**");

@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class five_actual_combat{
     public static void main(String[] args){
-        //输入内容
+        //输入内容  ，  iV  I
         Scanner in=new Scanner(System.in);  //定义scanner，等待输入
         System.out.println("1、九九乘法表\n2、1000水仙花数");
         System.out.print("请选择功能：");
@@ -18,7 +18,7 @@ public class five_actual_combat{
         switch(n){
             case 1:
                 //九九乘法表
-                System.out.print("九九乘法表");
+                System.out.println("九九乘法表");
                 for(int i=1;i<=9;i+=1){
                     for(int j=1;j<=i;j+=1){
                         System.out.print(i+"x"+j+"="+i*j+"\t");
@@ -28,7 +28,7 @@ public class five_actual_combat{
                 break; 
             case 2:
                 //水仙花数
-                System.out.print("水仙花数");
+                System.out.println("水仙花数:");
                 for(int i=1;i<=1000;i++){
                     int ge=i%10;   //余数
                     int shi=i/10%10;

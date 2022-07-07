@@ -1,7 +1,8 @@
 //数据类型转换
-public class 2_type_conversion{
+public class two_type_conversion{
     public static void main(String[] args){
         //隐式类型转换
+        //byte>short>int>long>float>double
         byte b = 9;
         short s = b;
         int i = s;
